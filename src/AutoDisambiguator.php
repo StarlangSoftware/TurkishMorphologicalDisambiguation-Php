@@ -995,7 +995,7 @@ abstract class AutoDisambiguator
         if ($defaultCase != "") {
             for ($i = 0; $i < $fsmParseList->size(); $i++) {
                 $fsmParse = $fsmParseList->getFsmParse($i);
-                if ($fsmParse->transitionList()->contains($defaultCase)) {
+                if ($fsmParse instanceof FsmParse && str_contains($fsmParse->getFsmParseTransitionList(), $defaultCase)) {
                     return $fsmParse;
                 }
             }
