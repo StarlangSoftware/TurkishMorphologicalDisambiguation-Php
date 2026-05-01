@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "78586c4e73560e2bee3f719c6d802da2",
+    "content-hash": "fd069f3f18e0874326d4c007821a7187",
     "packages": [],
     "packages-dev": [
         {
@@ -214,16 +214,16 @@
         },
         {
             "name": "olcaytaner/dictionary",
-            "version": "1.0.1",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StarlangSoftware/Dictionary-Php.git",
-                "reference": "f5ae98f30f2c6a2e8951aaee6ff53b8b4094e298"
+                "reference": "f41f3628885bd3556d530d972c4199c1d7b04208"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StarlangSoftware/Dictionary-Php/zipball/f5ae98f30f2c6a2e8951aaee6ff53b8b4094e298",
-                "reference": "f5ae98f30f2c6a2e8951aaee6ff53b8b4094e298",
+                "url": "https://api.github.com/repos/StarlangSoftware/Dictionary-Php/zipball/f41f3628885bd3556d530d972c4199c1d7b04208",
+                "reference": "f41f3628885bd3556d530d972c4199c1d7b04208",
                 "shasum": ""
             },
             "require": {
@@ -255,9 +255,9 @@
             "description": "Dictionary processing library",
             "support": {
                 "issues": "https://github.com/StarlangSoftware/Dictionary-Php/issues",
-                "source": "https://github.com/StarlangSoftware/Dictionary-Php/tree/1.0.1"
+                "source": "https://github.com/StarlangSoftware/Dictionary-Php/tree/1.0.3"
             },
-            "time": "2025-10-19T16:56:39+00:00"
+            "time": "2026-05-01T13:35:20+00:00"
         },
         {
             "name": "olcaytaner/morphologicalanalysis",
